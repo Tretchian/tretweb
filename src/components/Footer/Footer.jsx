@@ -32,10 +32,19 @@ export default function Footer(){
                 </div>
                 <div className='top_card'>
 
-                    
+                <a href='/' className='footerlink'> <img src='img/symbols/pin.svg'></img> Москва</a>
+                <div><img src='img/symbols/phone.svg'></img> +7 (900) 111-22-33</div> 
+                <div><img src='img/symbols/envelope.svg'></img> promair@mail.ru</div> 
 
-                </div>
+                </div>    
             </div>
+
+            <div className='bottom_part'>
+            <a className='copyright'>© ООО Promair </a>
+
+            <a href='/' className='privacy'>Политика обработки персональных данных </a>
+            </div>
+        
         </div>
     )
 }

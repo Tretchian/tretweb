@@ -11,8 +11,7 @@ export default function Header(){
               <a href='/' className='headlink'>Отзывы и сертификаты</a>
               <a href='/' className='headlink'>Контакты</a>
               <a href='/' className='headlink'> <img src='img/symbols/pin.svg'></img> Москва</a>
-              <div>
-                <img src='img/symbols/phone.svg'></img> +7 (900) 111-22-33</div> 
+              <div><img src='img/symbols/phone.svg'></img> +7 (900) 111-22-33</div> 
               </div>
       </header>
     )
