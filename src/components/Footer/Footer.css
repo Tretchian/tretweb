@@ -3,16 +3,38 @@
     background-color: #005692;
     margin: 0;
     height: 224px;
+    display: flex;
+    justify-content: center;
 }
 .footerlink{
 text-decoration: none;
 font-size: 14px;
+color: white;
+padding: 1%;
+text-wrap: nowrap;
 }
 .footerlink:hover{
 font-weight: 600;
 }
 
 .top_part{
-    display: grid;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+    width: 1080px;
+    height: 70%;
+}
+.top_card{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-around;
+    height: 80%;
+}
+.top_svg{
+    padding: 10px;
+}
+.logo{
+    image-resolution: 34px 128px;
 }
