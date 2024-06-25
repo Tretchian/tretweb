@@ -1,0 +1,20 @@
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.menucolumn{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding-left: 5%;
+}
+.maincolumn{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    justify-content: space-around;
+}
+.placeholder{
+    image-resolution: 50% 50%;
+}
