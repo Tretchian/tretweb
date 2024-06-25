@@ -1,16 +1,17 @@
 .headliner{
-    display: inline;
+    display: flex;
     padding: 1%;
+    text-wrap: nowrap;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     color: #02131F;
 }
 .headlink{
-    display: inline;
+    display: flex;
     padding: 1%;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    text-wrap: nowrap;
+    justify-content: space-between;
     text-decoration: none;
     color: #02131F;
 }
@@ -18,9 +19,13 @@
     font-weight: bold;
 }
 .headrect{
-    width: 1280px;
+    display: flex;
+    justify-content: center;
     height: 70px;
     gap: 0px;
     opacity: 0px;
     box-shadow: 0px 1px 0px #02131f3b;
+}
+.head{
+    
 }
