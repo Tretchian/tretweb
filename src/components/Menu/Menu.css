@@ -1,0 +1,30 @@
+.menubox{
+    display: flex;
+    flex-direction: column;
+    width: 254px;
+    box-shadow: 0px 1px 0px #02131f3b;
+    margin-left: 5%;
+}
+.menuItem{
+    text-decoration: none;
+    color:#9D9D9D;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 7pt;
+    padding-bottom: 7pt;
+}
+.menuItem:hover{
+    color: #02131F;
+}
+.menuStrong{
+    text-decoration: none;
+    text-wrap: balance;
+    font-weight: 600;
+    font-size: 16px;
+    color: #02131F;
+    padding-top: 10pt;
+    padding-bottom: 7pt;
+}
+.menuStrong:hover{
+    text-decoration: underline;
+}

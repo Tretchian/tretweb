@@ -1,31 +1,17 @@
 .headliner{
     display: flex;
     padding: 1%;
-    text-wrap: nowrap;
+    align-items: center;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration: none;
     color: #02131F;
+    box-shadow: 0px 1px 0px #02131f3b;
 }
 .headlink{
-    display: flex;
-    padding: 1%;
-    text-wrap: nowrap;
-    justify-content: space-between;
-    text-decoration: none;
     color: #02131F;
+    text-decoration: none;
 }
 .headlink:hover{
     font-weight: bold;
-}
-.headrect{
-    display: flex;
-    justify-content: center;
-    height: 70px;
-    gap: 0px;
-    opacity: 0px;
-    box-shadow: 0px 1px 0px #02131f3b;
-}
-.head{
-    
 }

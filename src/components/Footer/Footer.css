@@ -1,0 +1,18 @@
+.footer{
+    color: white;
+    background-color: #005692;
+    margin: 0;
+    height: 224px;
+}
+.footerlink{
+text-decoration: none;
+font-size: 14px;
+}
+.footerlink:hover{
+font-weight: 600;
+}
+
+.top_part{
+    display: grid;
+    
+}
