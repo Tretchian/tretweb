@@ -1,0 +1,26 @@
+.headliner{
+    display: inline;
+    padding: 1%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #02131F;
+}
+.headlink{
+    display: inline;
+    padding: 1%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #02131F;
+}
+.headlink:hover{
+    font-weight: bold;
+}
+.headrect{
+    width: 1280px;
+    height: 70px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 0px 1px 0px #02131f3b;
+}
