@@ -11,8 +11,8 @@
 .menucolumn{
     display: flex;
     flex-direction: column;
-    width: 15%;
-    margin-left: 100px;
+    margin-left: 50px;
+    max-width: 15%;
 }
 
 
@@ -23,10 +23,6 @@
     justify-content: flex-start;
     margin-right: 150px;
 }
-.placeholder{
-    image-resolution: 50% 50%;
-}
-
 .btn{
     background-color: #6AB8EE;
     border-radius: 6px;
@@ -124,5 +120,15 @@
     .menucolumn{
         visibility: hidden;
         width: 0;
+    }
+    .maincolumn{
+        max-width: 100%;
+    }
+    .searchtab{
+        height: 0;
+        visibility: hidden;
+    }
+    .cardZone{
+        max-width: 100%;
     }
 }

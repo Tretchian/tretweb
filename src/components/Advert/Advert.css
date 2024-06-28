@@ -12,3 +12,9 @@
     border-radius: 6px;
     justify-content: space-between;
 }
+
+@media screen and (max-width:1200px) {
+.bg{
+    max-width: 100%;
+}
+}
