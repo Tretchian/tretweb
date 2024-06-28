@@ -19,10 +19,19 @@ export default function Body(){
 
             <img src='img/bg.png' className='bg' width={805} height={287} style={{marginTop:12+'px'}}></img>
 
-            <div className='newItems'>Новинки</div>
-            <div className='cardZone'>Проекты</div>
-            <div className='cardZone'>Отзывы и сертификаты</div>
-            <div className='cardZone'>Новости</div>
+            <div className='newItems'>
+                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'center'}}>Новинки</a>
+            </div>
+            <div className='cardZone'>
+                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'flex-start'}}>Проекты</a>
+            </div>
+            <div className='cardZone'>
+                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'flex-start'}}>Отзывы и сертификаты</a>
+            </div>
+            <div className='cardZone'>
+                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'flex-start'}}>Новости</a>
+            </div>
+            
         </div>
 
     </div>
