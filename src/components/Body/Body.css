@@ -117,15 +117,12 @@
 }
 
 @media screen and (max-width:1200px) {
-    .body{
-        align-items: center;
-    }
     .menucolumn{
         visibility: hidden;
         width: 0;
     }
     .maincolumn{
-        max-width: 100%;
+        max-width: 200%;
         margin-right: 0;
     }
     .searchtab{
@@ -133,6 +130,6 @@
         visibility: hidden;
     }
     .cardZone{
-        max-width: 100%;
+        width: 847px;
     }
 }
