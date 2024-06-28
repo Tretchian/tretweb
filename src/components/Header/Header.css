@@ -18,7 +18,7 @@
 .headlinersvg{
     visibility: hidden;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
     .headliner{
         visibility: hidden;
         width: 0;
