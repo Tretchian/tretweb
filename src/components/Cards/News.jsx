@@ -5,9 +5,9 @@ return(
     <img src={image}></img>
     <a className='newstext'>{text}</a>
     <a className='newsdescription'>{desc}</a>
-    
-    <div style={{display:'flex',justifyContent:'space-between',justifySelf:'end'}}>
-        <a href='' className='newssmalltext'>Читать далее</a>
+
+    <div style={{display:'flex',justifyContent:'space-between',justifySelf:'flex-end',alignContent:'center'}}>
+        <a href='' className='newssmalltext' >Читать далее</a>
         <a className='newssmalltext'>{date}</a>
     </div>
 </div>

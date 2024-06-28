@@ -3,6 +3,7 @@ import Menu from '../Menu/Menu.jsx'
 import SearchBar from '../SearchBar/Search.jsx'
 import MoreButton from '../Buttons/More.jsx'
 import NewsCard from '../Cards/News.jsx'
+import ItemsCard from '../Cards/NewItem.jsx'
 export default function Body(){
     return(
     <>
@@ -22,7 +23,13 @@ export default function Body(){
             <img src='img/bg.png' className='bg' width={805} height={287} style={{marginTop:12+'px'}}></img>
 
             <div className='newItems'>
-                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'center'}}>Новинки</a>
+                <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'center',marginBottom:20+'px'}}>Новинки</a>
+                <div style={{display:'flex',justifyContent:"space-between"}}>
+                    <ItemsCard image={'/img/comp.png'} text='Бензиновый генератор RATO R8000ID' />
+                    <ItemsCard image={'/img/comp2.png'} text='Бензиновый генератор RATO R3500I' />
+                    <ItemsCard image={'/img/comp3.png'} text='Бензиновый генератом RATO R2500IS' />
+                    <ItemsCard image={'/img/comp4.png'} text='Бензиновый генератом RATO R6000E-L2' />
+                </div>
             </div>
             <div className='cardZone'>
                 <div className='toplane'>

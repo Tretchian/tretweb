@@ -24,3 +24,37 @@
 .morebutton:active{
   background-color: #1B85CE;
 }
+
+.addbutton{
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #DADADA;
+  color: #02131F;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+  height: 46px;
+  text-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.addbutton:hover{
+  background-color: #8FD1FF;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+  fill: #DADADA;
+  stroke: #DADADA;
+  stroke-width: 3px;
+}
+.addbutton::before{
+  content: '70 000 руб.';
+}
+.addbutton:hover::before{
+
+  content: 'В корзину';
+}
+.addbutton:active{
+background-color: #1B85CE;
+}

@@ -1,0 +1,14 @@
+.itemcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 269px;
+    margin: 4px;
+}
+.itemtext{
+    font-size: 14px;
+    font-weight: 500;
+    color: #02131F;
+    margin: 7px;
+}
