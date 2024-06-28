@@ -117,12 +117,16 @@
 }
 
 @media screen and (max-width:1200px) {
+    .body{
+        align-items: center;
+    }
     .menucolumn{
         visibility: hidden;
         width: 0;
     }
     .maincolumn{
         max-width: 100%;
+        margin-right: 0;
     }
     .searchtab{
         height: 0;
