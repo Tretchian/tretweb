@@ -83,16 +83,16 @@ visibility: collapse;
         width: 90%;
     }
     .logo{
-        width: 200%;
+        width: 150%;
     }
     .footermobile{
         visibility:visible;
         background-color:#F6F6F6;
         color: #02131F;
-        height: 440px;
+        height: 540px;
         width: 100%;
     }
     .footerlink{
-        font-size: 16px;
+        font-size: 30px;
     }
 }
