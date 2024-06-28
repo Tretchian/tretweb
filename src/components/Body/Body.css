@@ -1,6 +1,12 @@
 .body{
     display: flex;
     justify-content: space-around;
+    padding-top: 12px;
+}
+.searchtab{
+    display: flex;
+    justify-content: space-between;
+    max-width: 805px;
 }
 .menucolumn{
     display: flex;
@@ -13,8 +19,46 @@
     flex-direction: column;
     width: 60%;
 
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .placeholder{
     image-resolution: 50% 50%;
+}
+.bg{
+    background-color: #005692;
+    border-radius: 6px;
+}
+.btn{
+    background-color: #6AB8EE;
+    border-radius: 6px;
+    border-color: #6AB8EE;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    width: 255px;
+    height: 46px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn:hover{
+    background-color: #8FD1FF;
+    cursor: pointer;
+}
+
+.btn-cart{
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    display: inline-block;
+    width: 72px;
+    height: 46px;
+    background-color: #F6F6F6;
+}
+
+.btn-cart:hover{
+    cursor: pointer;
+    background-color: #a6a6a6;
 }
