@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 12px;
+    min-width: 1000px;
 }
 .searchtab{
     display: flex;
