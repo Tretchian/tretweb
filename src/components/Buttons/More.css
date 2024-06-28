@@ -20,6 +20,7 @@
     fill: #DADADA;
     stroke: #DADADA;
     stroke-width: 3px;
+    cursor: pointer;
 }
 .morebutton:active{
   background-color: #1B85CE;
@@ -75,11 +76,13 @@ background-color: #1B85CE;
   text-wrap: nowrap;
   flex-wrap: nowrap;
   stroke: #FFFFFF;
+  
 }
 .catbutton:hover{
 color: #005692;
 background-color: #FFFFFF;
 fill: #005692;
+cursor: pointer;
 }
 .catbutton:active{
   color: white;
