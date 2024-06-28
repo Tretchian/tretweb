@@ -1,5 +1,6 @@
 import './Body.css'
 import Menu from '../Menu/Menu.jsx'
+import Advert from '../Advert/Advert.jsx'
 import SearchBar from '../SearchBar/Search.jsx'
 import MoreButton from '../Buttons/More.jsx'
 import NewsCard from '../Cards/News.jsx'
@@ -19,8 +20,8 @@ export default function Body(){
                 <button className='btn'>Заказать звонок</button>
                 <button className='btn-cart'><img src='/img/symbols/Cart.svg'></img></button>
             </div>
-
-            <img src='img/bg.png' className='bg' width={805} height={287} style={{marginTop:12+'px'}}></img>
+                {/*продажа компрессоров с ценой производителя*/}
+               <Advert />
 
             <div className='newItems'>
                 <a style={{fontSize:30+'px', fontWeight:700, alignSelf:'center',marginBottom:20+'px'}}>Новинки</a>

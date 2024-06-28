@@ -13,6 +13,13 @@ export default function Header(){
               <a href='/' className='headlink'> <img src='img/symbols/pin.svg'></img> Москва</a>
               <div><img src='img/symbols/phone.svg'></img> +7 (900) 111-22-33</div> 
               </div>
+              <div className='headlinermobile'>
+                <img src='img/symbols/apps.svg' className='headlinersvg'></img>
+                <img src='img/symbols/search.svg' className='headlinersvg'></img>
+                <img src='img/logo.svg' alt = 'logo.png' className='headlinersvg'></img>
+                <img src='img/symbols/phone.svg' className='headlinersvg'></img>
+                <img src='img/symbols/Menu.svg' className='headlinersvg'></img>
+              </div>
       </header>
     )
   }

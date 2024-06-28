@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding-top: 12px;
-    min-width: 1000px;
 }
 .searchtab{
     display: flex;
@@ -15,6 +14,8 @@
     width: 15%;
     margin-left: 100px;
 }
+
+
 .maincolumn{
     display: flex;
     flex-direction: column;
@@ -25,10 +26,7 @@
 .placeholder{
     image-resolution: 50% 50%;
 }
-.bg{
-    background-color: #005692;
-    border-radius: 6px;
-}
+
 .btn{
     background-color: #6AB8EE;
     border-radius: 6px;
@@ -120,4 +118,11 @@
     object-fit: cover;
     width: 117px;
     height: 165px;
+}
+
+@media screen and (max-width:900px) {
+    .menucolumn{
+        visibility: hidden;
+        width: 0;
+    }
 }
