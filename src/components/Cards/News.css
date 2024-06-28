@@ -1,0 +1,28 @@
+.newscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow:0 0 20px #0000001A;
+    width:255px;
+    height: 350px;
+}
+.newstext{
+font-size: 16px;
+font-weight: 600;
+color: #02131F;
+margin: 4%;
+}
+.newsdescription{
+font-size: 14px;
+font-weight: 400;
+color: #02131F99;
+margin: 2%;
+}
+.newssmalltext{
+    font-size: 12px;
+    font-weight: 400;
+    color:#9D9D9D;
+    margin: 5px;
+}

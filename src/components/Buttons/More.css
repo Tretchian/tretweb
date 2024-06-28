@@ -1,0 +1,26 @@
+.morebutton{
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #DADADA;
+    color: #02131F;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    justify-content: space-between;
+    width: 144px;
+    height: 46px;
+    text-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.morebutton:hover{
+    background-color: #8FD1FF;
+    border: 0;
+    cursor: pointer;
+    color: #ffffff;
+    fill: #DADADA;
+    stroke: #DADADA;
+    stroke-width: 3px;
+}
+.morebutton:active{
+  background-color: #1B85CE;
+}
